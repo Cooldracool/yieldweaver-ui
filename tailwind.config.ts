@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// DeFi specific colors
+				yield: {
+					high: 'hsl(var(--yield-high))',
+					medium: 'hsl(var(--yield-medium))',
+					low: 'hsl(var(--yield-low))'
+				},
+				protocol: {
+					bg: 'hsl(var(--protocol-bg))'
+				},
+				glass: 'hsl(var(--glass))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +72,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				'glow-primary': 'var(--glow-primary)',
+				'glow-yield': 'var(--glow-yield)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
