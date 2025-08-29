@@ -1,13 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Shield, Zap } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="bg-gradient-hero py-20 px-4">
+  return <section className="bg-gradient-hero py-20 px-4">
       <div className="container mx-auto text-center">
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-          Maximize Your DeFi Yields
-        </h1>
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">Maximize Your DeFi Returns</h1>
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
           Discover the highest yield opportunities across all major DeFi protocols. 
           Compare APYs, analyze risks, and optimize your farming strategy.
@@ -41,8 +37,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
