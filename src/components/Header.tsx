@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Wallet, Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
+import { Wallet, Search } from "lucide-react";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
             <div className="w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center">
               <span className="text-sm font-bold text-primary-foreground">Y</span>
             </div>
-            <span className="text-xl font-bold">YieldMax</span>
+            <span className="text-xl font-bold text-foreground">YieldMax</span>
           </div>
         </div>
 

@@ -66,7 +66,7 @@ const YieldGrid = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
           <div>
-            <h2 className="text-3xl font-bold mb-2">Top Yield Opportunities</h2>
+            <h2 className="text-3xl font-bold mb-2 text-foreground">Top Yield Opportunities</h2>
             <p className="text-muted-foreground">
               Showing {mockYields.length} protocols with live APY data
             </p>

@@ -34,7 +34,7 @@ const YieldCard = ({ protocol, pool, apy, tvl, risk, logo, chain }: YieldCardPro
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 bg-protocol-bg rounded-full flex items-center justify-center">
-            <span className="text-sm font-bold">{logo}</span>
+            <span className="text-sm font-bold text-foreground">{logo}</span>
           </div>
           <div>
             <h3 className="font-semibold text-foreground">{protocol}</h3>
